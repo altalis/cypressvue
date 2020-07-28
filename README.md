@@ -22,5 +22,9 @@ npm run lint
 quasar build
 ```
 
+### Running end-to-end tests
+
+Run `npm run e2e` to execute the end-to-end tests via [Cypress](https://www.cypress.io/).
+
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
