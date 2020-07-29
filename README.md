@@ -2,24 +2,15 @@
 
 A Quasar Framework app
 
-## Install the dependencies
-```bash
-npm install
-```
-
 ### Start the app in development mode (hot-code reloading, error reporting, etc.)
 ```bash
 quasar dev
 ```
 
-### Lint the files
-```bash
-npm run lint
-```
+### Development server
 
-### Build the app for production
 ```bash
-quasar build
+npm run server
 ```
 
 ### Running end-to-end tests
@@ -27,6 +18,11 @@ quasar build
 Run to execute the end-to-end tests via [Cypress](https://www.cypress.io/).
 ```bash
 npm run e2e
+```
+
+Remember to run the server (backend)
+```bash
+npm run server
 ```
 
 ### Customize the configuration
